@@ -1,0 +1,53 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: #fdfcfb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-card {
+  max-width: 700px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-card h2 {
+  font-size: 2rem;
+  color: #5e2b97;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-card p {
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.about-intro {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.social-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-link a {
+  text-decoration: none;
+  color: #e1306c;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.social-link a:hover {
+  color: #c3215d;
+}
